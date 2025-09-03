@@ -1,0 +1,13 @@
+button:hover {
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  cont {
+    position: relative;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+h3{
+    margin: 1rem 0;
+}
