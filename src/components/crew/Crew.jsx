@@ -49,7 +49,7 @@ export default function Crew() {
   return (
     <div
       style={{ backgroundImage: `url(${BackgroundCrew})` }}
-      className="bg-cover bg-center bg-no-repeat w-full  min-h-full overflow-hidden space-y-5"
+      className="bg-cover bg-center bg-no-repeat w-full max-h-full min-h-screen overflow-hidden space-y-5"
     >
       {/* Title Page*/}
       <div className="text-white container mx-auto px-9 lg:px-16 pt-35 tracking-widest">

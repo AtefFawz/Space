@@ -60,7 +60,7 @@ export default function Destination() {
   return (
     <div
       style={{ backgroundImage: `url(${backgroundDestination})` }}
-      className="bg-cover bg-center h-screen w-full overflow-hidden"
+      className="bg-cover bg-center min-h-screen w-full max-h-full overflow-hidden"
     >
       <div className="container mx-auto lg:px-16 md:px-8 px-4">
         <div className="absolute top-34">
