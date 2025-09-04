@@ -25,11 +25,11 @@
   .menu {
     position: absolute !important;
     left: 90%;
-    z-index: 10;
+    z-index: 100;
   }
   #mobile {
     flex-direction: column;
-    height: 100vh;
+    height: 110vh;
     align-items: start;
     justify-content: center;
     width: 60%;

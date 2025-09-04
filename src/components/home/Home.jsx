@@ -3,19 +3,17 @@ import Desc from "../../assets/home/Desktop - Home.png";
 export default function Home() {
   return (
     <>
-      <div className="z-0 ">
-        <img
-          src={Desc}
-          alt="Desktop"
-          className="bg-cover object-cover h-screen w-full"
-        />
+      <div
+        className="bg-cover bg-center bg-no-repeat w-full  max-h-full min-h-screen space-y-5"
+        style={{ backgroundImage: `url(${Desc})` }}
+      >
         <div
-          className="flex lg:flex-row flex-col lg:px-10 px-5 absolute 
-        translate-y-[-110%]  lg:top-1/5 lg:translate-y-1/5 md:items-center justify-around py-10"
+          className="flex lg:flex-row flex-col lg:px-10 px-5 
+         items-center justify-around  h-full py-16 "
         >
           <div className=" text-white flex flex-col text-wrap items-center lg:w-1/2 w-1/ ">
             <h1
-              className={`md:text-2xl lg:text-3xl text-xl text-center text-gray-500 tracking-wider`}
+              className={`md:text-2xl lg:text-3xl text-xl  text-gray-500 tracking-wider pt-42`}
             >
               SO, YOU WANT TO TRAVEL TO
             </h1>

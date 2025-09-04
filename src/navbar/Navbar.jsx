@@ -25,7 +25,7 @@ export default function Navbar() {
             0{i}
           </span>{" "}
           <Link
-            className="text-[1.3rem] md:text-[1rem] lg:text-[1.2rem] font-light text-gray-300"
+            className="text-[1rem] lg:text-[1.2rem] font-light text-gray-300"
             to={`/${e.name}`}
           >
             {e.name}
@@ -36,7 +36,7 @@ export default function Navbar() {
   });
   return (
     <>
-      <div className="my-1 fixed text-white w-full flex items-center justify-between ">
+      <div className="my-1 fixed text-white w-full flex items-center justify-between z-1000">
         <div className="flex items-center">
           <MenuIcon
             className="menu"

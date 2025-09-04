@@ -52,7 +52,7 @@ export default function Crew() {
       className="bg-cover bg-center bg-no-repeat w-full  min-h-full overflow-hidden space-y-5"
     >
       {/* Title Page*/}
-      <div className="text-white container mx-auto px-9 lg:px-16 pt-45 tracking-widest">
+      <div className="text-white container mx-auto px-9 lg:px-16 pt-35 tracking-widest">
         <span className="text-[1.4rem] lg:text-2xl text-gray-500 font-extrabold">
           02{" "}
         </span>
