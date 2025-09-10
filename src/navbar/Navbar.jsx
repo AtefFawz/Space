@@ -17,15 +17,15 @@ export default function Navbar() {
   ];
   let extract = mapData.map((e, i) => {
     return (
-      <ul key={i} className="px-6">
+      <ul key={i} className="px-6 ">
         <li>
           <span
-            className={`text-[1.4rem] md:text-[1.1rem] lg:text-[1.3rem] font-bold`}
+            className={`text-[1.1rem] font-bold`}
           >
             0{i}
           </span>{" "}
           <Link
-            className="text-[1rem] lg:text-[1.2rem] font-light text-gray-300"
+            className="text-[1rem] font-light text-gray-300"
             to={`/${e.name}`}
           >
             {e.name}

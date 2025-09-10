@@ -62,7 +62,7 @@ export default function Crew() {
       </div>
 
       {/* Content page*/}
-      <div className="flex lg:flex-row flex-col lg:justify-evenly items-center gap-y-10 pt-0 pb-22 container mx-auto">
+      <div className="flex lg:flex-row flex-col lg:justify-evenly items-center gap-y-10  pb-22 container mx-auto h-full pt-10">
         <div className="flex flex-col justify-center items-center px-4 max-w-2xl">
           <h2 className="text-gray-500 text-2xl md:text-4xl font-bold tracking-wide mt-7">
             {extract.title}
