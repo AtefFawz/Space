@@ -22,7 +22,7 @@ export default function Navbar() {
           <span className={`text-[1.1rem] font-bold`}>0{i}</span>{" "}
           <Link
             className="text-[1rem] font-light text-gray-300"
-            to={`/${e.name}`}
+            to={`/Space/${e.name}`}
           >
             {e.name}
           </Link>

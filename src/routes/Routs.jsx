@@ -7,11 +7,11 @@ import { Routes, Route } from "react-router-dom";
 export default function Routs() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/Home" element={<Home />} />
-      <Route path="/Destination" element={<Destination />} />
-      <Route path="/Crew" element={<Crew />} />
-      <Route path="/Technology" element={<Technology />} />
+      <Route path="/Space/" element={<Home />} />
+      <Route path="/Space/Home" element={<Home />} />
+      <Route path="/Space/Destination" element={<Destination />} />
+      <Route path="/Space/Crew" element={<Crew />} />
+      <Route path="/Space/Technology" element={<Technology />} />
     </Routes>
   );
 }
