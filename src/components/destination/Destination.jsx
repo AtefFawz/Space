@@ -54,7 +54,7 @@ export default function Destination() {
     },
   ];
 
-  // 🔥 Use State
+  //  Use State
   const [selected, setSelected] = useState(data[0]); // Default value
 
   return (

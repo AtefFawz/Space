@@ -36,19 +36,17 @@ export default function TechnologyComponent() {
     <>
       <div
         style={{ backgroundImage: `url(${Background})` }}
-        className="bg-cover bg-center bg-no-repeat w-full  min-h-screen overflow-hidden space-y-5 py-10"
+        className="bg-cover bg-center bg-no-repeat w-full min-h-screen overflow-hidden space-y-5 "
       >
         <div className="  lg:px-16 ">
-          <div className="pt-[8em] lg:pt-[10em] px-8 lg:px-5">
-            <span className="text-gray-400 md:text-3xl lg:text-4xl text-xl">
-              03{" "}
-            </span>
-            <h2 className="inline text-gray-200 md:text-2xl lg:text-3xl text-lg">
+          <div className="pt-34  px-8 lg:px-5">
+            <span className="text-gray-500 text-xl lg:text-2xl">03 </span>
+            <h1 className="inline text-gray-300 md:text-2xl text-lg">
               SPACE LAUNCH 101
-            </h2>
+            </h1>
           </div>
           {/* Parent Content */}
-          <div className="flex flex-col lg:flex-row items-center  gap-10 justify-around">
+          <div className="flex flex-col lg:flex-row items-center gap-5 justify-around">
             {/* Text-Content */}
             <div className="flex flex-col justify-center lg:items-start items-center lg:text-start text-center lg:order-3 order-3 min-w-md max-w-xl px-13 lg:px-2">
               <h2 className="text-xl md:text-2xl lg:text-3xl  text-gray-400 tracking-wide ">

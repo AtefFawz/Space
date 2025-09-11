@@ -53,12 +53,10 @@ export default function Crew() {
     >
       {/* Title Page*/}
       <div className="text-white container mx-auto px-9 lg:px-16 pt-35 tracking-widest">
-        <span className="text-[1.4rem] lg:text-2xl text-gray-500 font-extrabold">
-          02{" "}
-        </span>
-        <h2 className="inline md:text-xl text-lg text-gray-200">
+        <span className="text-gray-500 text-xl lg:text-2xl">02 </span>
+        <h1 className="inline text-gray-300 md:text-2xl text-lg">
           MEET YOUR CREW
-        </h2>
+        </h1>
       </div>
 
       {/* Content page*/}
