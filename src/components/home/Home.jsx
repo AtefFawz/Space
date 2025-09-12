@@ -7,7 +7,7 @@ export default function Home() {
         className="bg-cover bg-center bg-no-repeat w-full  max-h-full min-h-screen space-y-5 "
         style={{ backgroundImage: `url(${Desc})` }}
       >
-        <div className="container mx-auto lg:px-16 md:px-8 px-4 pt-34">
+        <div className="container mx-auto px-8 lg:px-5 pt-34">
           {" "}
           <h1 className={`text-gray-300 md:text-2xl text-lg  `}>
             SO, YOU WANT TO TRAVEL TO

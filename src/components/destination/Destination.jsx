@@ -62,7 +62,7 @@ export default function Destination() {
       style={{ backgroundImage: `url(${backgroundDestination})` }}
       className="bg-cover bg-center min-h-screen w-full max-h-full overflow-hidden"
     >
-      <div className="container mx-auto lg:px-16 md:px-8 px-4">
+      <div className="container mx-auto px-8 lg:px-5">
         <div className="absolute top-34">
           <h1 className="text-gray-300 md:text-2xl text-lg">
             <span className="text-gray-500 text-xl lg:text-2xl">01 </span>PICK

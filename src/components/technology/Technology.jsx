@@ -36,7 +36,7 @@ export default function TechnologyComponent() {
     <>
       <div
         style={{ backgroundImage: `url(${Background})` }}
-        className="bg-cover bg-center bg-no-repeat w-full min-h-screen overflow-hidden space-y-5 "
+        className="bg-cover bg-center bg-no-repeat w-full min-h-screen overflow-hidden space-y-5 pb-10"
       >
         <div className="  lg:px-16 ">
           <div className="pt-34  px-8 lg:px-5">
@@ -55,7 +55,7 @@ export default function TechnologyComponent() {
               <h1 className="text-2xl md:text-3xl lg:text-4xl text-gray-50 tracking-wide pt-3 pb-7">
                 {data.name}
               </h1>
-              <p className="lg:text-lg tracking-wide text-md text-gray-300">
+              <p className="lg:text-lg px-6 tracking-wide text-md text-gray-300">
                 {data.description}
               </p>
             </div>
