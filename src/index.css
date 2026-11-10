@@ -1,14 +1,45 @@
-@import "tailwindcss";
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  /* line-height: 1.5; */
-  /* color-scheme: light dark; */
-  /* font-synthesis: none;
-  */
+  font-family: 'Manrope', sans-serif;
+  color: #f3f5fa;
+  background: #070b18;
+  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --ink: #070b18;
+  --ink-soft: #0d1426;
+  --ink-raised: #111d32;
+  --line: rgba(210, 228, 242, .15);
+  --line-strong: rgba(210, 228, 242, .28);
+  --text: #f3f5fa;
+  --muted: #a4b1c5;
+  --dim: #718097;
+  --ice: #a9e8f4;
+  --ice-strong: #73d5e9;
+  --coral: #f0a17d;
+  --mono: 'DM Mono', monospace;
+  --display: 'Playfair Display', Georgia, serif;
 }
-*{
-  transition: all 0.4s ease-in-out;
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; background: var(--ink); }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--ink); }
+body, button, a { -webkit-tap-highlight-color: transparent; }
+button, input { font: inherit; }
+button { color: inherit; }
+a { color: inherit; text-decoration: none; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--ice); outline-offset: 4px; }
+::selection { color: var(--ink); background: var(--ice); }
+#root { min-height: 100vh; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
 }
