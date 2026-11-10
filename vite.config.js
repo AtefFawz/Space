@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite";
 
+// Keep the deployment base aligned with the GitHub Pages repository name.
 export default defineConfig({
-  base: "/Space/",
-  plugins: [react(), tailwindcss()],
+  base: "/",
+  plugins: [react()],
 });
