@@ -27,8 +27,10 @@ export default function App() {
   }, [location.pathname]);
 
   return (
-    <div className="app-shell">
-      <a className="skip-link" href="#main-content">Skip to main content</a>
+    <div className="app-shell max-w-full">
+      <a className="skip-link" href="#main-content">
+        Skip to main content
+      </a>
       <SiteHeader />
       <Routes>
         <Route path="/" element={<HomePage />} />
